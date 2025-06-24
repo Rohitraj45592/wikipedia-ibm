@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBM - Wikipedia Clone</title>
+  <link rel="stylesheet" href="wikipedia.css" />
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Wikipedia Logo">
+      <div class="logo-text">
+        Wikipedia<br><span>The Free Encyclopedia</span>
+      </div>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Search Wikipedia">
+    </div>
+    <div class="top-links">
+      <a href="#">Donate</a> |
+      <a href="#">Create account</a> |
+      <a href="#">Log in</a>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="images/tree-logo.png" alt="Tree Logo">
+    <span>Wiki Loves Earth photo contest: <a href="#">Upload photos of natural heritage sites in India to help Wikipedia and win fantastic prizes!</a></span>
+  </div>
+
+  <!-- Body -->
+  <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li><strong>(Top)</strong></li>
+        <li><a onclick="showSection('history')">History</a></li>
+        <li><a onclick="showSection('corporate')">Corporate affairs</a></li>
+        <li><a onclick="showSection('products')">Products</a></li>
+        <li><a onclick="showSection('research')">Research</a></li>
+        <li><a onclick="showSection('brand')">Brand and reputation</a></li>
+        <li><a onclick="showSection('culture')">People and culture</a></li>
+        <li><a onclick="showSection('leadership')">Leadership</a></li>
+        <li><a onclick="showSection('seealso')">See also</a></li>
+        <li><a onclick="showSection('notes')">Notes</a></li>
+        <li><a onclick="showSection('references')">References</a></li>
+        <li><a onclick="showSection('further')">Further reading</a></li>
+        <li><a onclick="showSection('external')">External links</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>IBM</h1>
+      <img src="images/ibm-logo.png" alt="IBM Logo">
+
+      <div id="history" class="section active">
+            <p><strong>International Business Machines Corporation (IBM)</strong>, originally known as the Computing-Tabulating-Recording Company (CTR), was founded in 1911 through a merger of four companies. It was renamed IBM in 1924. Throughout the 20th century, IBM transformed the computing industry. It developed punch-card machines, magnetic stripe cards, and led the development of modern barcodes. IBM introduced the first automated teller machines (ATMs) and revolutionized data processing with the launch of the System/360 mainframe in the 1960s. During the 1980s, IBM became known for its personal computers, helping to define the PC industry as we know it today. Its ThinkPad laptops, acquired later by Lenovo, were once industry leaders.</p>
+            <p>IBM also made strides in artificial intelligence, most notably with Deep Blue—the first machine to defeat a world chess champion—and later with Watson, which won the quiz show Jeopardy! in 2011. The company has consistently invested in research and development and has earned the highest number of U.S. patents every year for nearly three decades. With a shift towards cloud computing and AI in recent years, IBM acquired Red Hat in 2019, one of the largest software acquisitions in history. Its focus today lies in hybrid cloud infrastructure, enterprise AI, and quantum computing. IBM continues to influence the world through innovation, partnerships, and solutions designed to make businesses smarter, more secure, and resilient in an ever-changing world.</p>
+          </div>
+          <div id="corporate" class="section">
+            <p>IBM's corporate affairs encompass a wide range of strategic operations that define its influence and longevity in the tech world. The company is headquartered in Armonk, New York, and operates in over 175 countries worldwide. Its business strategy emphasizes client-centric approaches, long-term partnerships, and leveraging advanced technologies. IBM has a board of directors and executive leadership that focuses on maintaining transparency, corporate governance, and social responsibility. The company promotes sustainability initiatives and regularly publishes environmental, social, and governance (ESG) reports. Furthermore, IBM is also known for its proactive involvement in tech regulation, digital rights, and ethical AI governance globally.</p>
+          </div>
+          <div id="products" class="section">
+            <p>IBM offers a robust product portfolio tailored to enterprises. Key offerings include IBM Cloud, which supports hybrid multi-cloud environments; IBM Watson, an AI system designed for business use cases such as natural language processing, automation, and analytics; and IBM Z mainframe systems known for reliability and security. The company also provides data storage systems, Power Systems servers, middleware, and blockchain solutions. With its Red Hat acquisition, IBM now offers OpenShift-based containerization and Kubernetes platforms. IBM’s services enable digital transformation through consulting, infrastructure modernization, cybersecurity, and artificial intelligence integration.</p>
+          </div>
+          <div id="research" class="section">
+            <p>IBM Research is one of the world's largest and most influential corporate research labs, with a legacy of major technological breakthroughs. IBM scientists have invented the hard disk drive, dynamic random-access memory (DRAM), and relational databases. In modern times, IBM Research focuses on quantum computing, AI ethics, cloud infrastructure, semiconductors, and climate science. IBM's labs across the globe contribute to open-source communities, patent leadership, and academic collaborations. It has 12 research labs worldwide, with pioneering work in quantum systems, neuromorphic chips, and sustainable AI models driving the future of tech.</p>
+          </div>
+          <div id="brand" class="section">
+            <p>IBM’s brand is recognized globally for innovation, trust, and enterprise-grade solutions. The iconic blue logo, designed by Paul Rand, symbolizes consistency and stability. IBM’s brand has evolved with time—from a hardware and services powerhouse to a cloud and AI leader. The company’s reputation is built on long-term customer trust, corporate responsibility, and cutting-edge R&D. IBM frequently ranks high in global brand valuation studies and is associated with business transformation, leadership in patents, and technological ethics.</p>
+          </div>
+          <div id="culture" class="section">
+            <p>IBM fosters an inclusive, ethical, and learning-driven culture. It emphasizes diversity, equity, and inclusion in its workforce policies. The company runs global initiatives to improve access to digital education and has committed to training millions in AI and cybersecurity by 2030. IBMers (IBM employees) value innovation, customer focus, and continuous learning. Programs like IBM SkillsBuild and P-TECH showcase IBM’s commitment to social impact and global upskilling. Remote work, sustainability, and employee wellness are also core to IBM’s evolving culture post-pandemic.</p>
+          </div>
+          <div id="leadership" class="section">
+            <p>IBM’s leadership has played a pivotal role in shaping the tech world. From Thomas J. Watson Sr., who laid the foundation, to Arvind Krishna, the current CEO, each leader brought transformational vision. Watson Jr. steered IBM into computing; Lou Gerstner’s reforms revived IBM in the 1990s by shifting toward services; and Ginni Rometty led its cloud strategy. Krishna has doubled down on AI and hybrid cloud, positioning IBM for future relevance. IBM’s leadership values innovation, resilience, and long-term strategy.</p>
+          </div>
+          <div id="seealso" class="section">
+            <p>Other related topics include Red Hat, OpenAI, Microsoft Azure, Amazon Web Services, Google Cloud Platform, Intel, Oracle, and companies shaping enterprise computing and artificial intelligence. Topics such as quantum computing, AI ethics, hybrid cloud, and edge computing are also closely tied to IBM’s ongoing work.</p>
+          </div>
+          <div id="notes" class="section">
+            <p>The nickname "Big Blue" is a reference to IBM’s traditional color scheme and consistent use of blue in branding, logos, and design. It represents trust, security, and stability. Many associate the term with IBM’s dominance in the mainframe and enterprise computing space, especially during the 1960s–1990s.</p>
+          </div>
+          <div id="references" class="section">
+            <p>References include IBM’s official website (www.ibm.com), annual reports, Wikipedia, Forbes, Wired, Harvard Business Review, and IEEE articles. Key authors like Kevin Maney and Richard Tedlow have written extensively about IBM’s leadership and strategic moves over the years. IBM's patent archives and Watson Blog are also credible sources of recent innovation updates.</p>
+          </div>
+          <div id="further" class="section">
+            <p>For further reading, books such as “Making the World Work Better,” “The Maverick and His Machine,” “Who Says Elephants Can’t Dance?” and “IBM Redux” provide in-depth insights. Harvard case studies and MIT Sloan research papers on IBM's transformation journey are also valuable. The official IBM Research blog offers technical insights into its latest innovations.</p>
+          </div>
+        <p>Visit: <a href="https://www.ibm.com" target="_blank">www.ibm.com</a> | 
+        <a href="https://en.wikipedia.org/wiki/IBM" target="_blank">IBM Wikipedia</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">© 2025 Wikipedia Clone by Rohit Raj | Demo only</div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
